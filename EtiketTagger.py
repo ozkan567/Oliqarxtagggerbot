@@ -143,11 +143,11 @@ async def mentionall(event):
     mode = "text_on_reply"
     msg = event.reply_to_msg_id
     if msg == None:
-        return await event.respond("➻ 𝖤𝗌𝗄𝗂 𝖬𝖾𝗌𝖺𝗃𝗅𝖺𝗋𝗂 𝖦𝗈𝗋𝖾𝗆𝗂𝗒𝗈𝗋𝗎𝗆 ! ")
+        return await event.respond("➻ Evvelki mesajları görə bilmirəm ! ")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
-    return await event.respond("➻ 𝖤𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗆𝖾 𝖬𝖾𝗌𝖺𝗃𝗂 𝖸𝖺𝗓𝗆𝖺𝖽𝗂𝗇 ! ")
+    return await event.respond("➻ Tağ üçün mesaj yazmadın ! ")
   else:
-    return await event.respond("➻ 𝖤𝗍𝗂𝗄𝖾𝗍 𝗂𝗌𝗅𝖾𝗆𝗂𝗇𝖾 𝖻𝖺𝗌𝗅𝖺𝗆𝖺𝗆 𝗂𝖼𝗂𝗇 𝖻𝗂𝗋 𝗌𝖾𝖻𝖾𝗉 𝗒𝖺𝗓𝗂𝗇 ! ")
+    return await event.respond("➻ Tağ etməyim üçün bir səbəb yazın ! ")
     
   if mode == "text_on_cmd":
     await client.send_message(event.chat_id, "✅ Tağ etmək işi başladıldı . . .",
@@ -335,17 +335,17 @@ async def etag(event):
     mode = "text_on_reply"
     msg = event.reply_to_msg_id
     if msg == None:
-        return await event.respond("➻ 𝖤𝗌𝗄𝗂 𝖬𝖾𝗌𝖺𝗃𝗅𝖺𝗋𝗂 𝖦𝗈𝗋𝖾𝗆𝗂𝗒𝗈𝗋𝗎𝗆 ! ")
+        return await event.respond("➻ Evvelki Mesajları Görə bilmirəm ! ")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
-    return await event.respond("➻ 𝖤𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗆𝖾 𝖬𝖾𝗌𝖺𝗃𝗂 𝖸𝖺𝗓𝗆𝖺𝖽𝗂𝗇 ! ")
+    return await event.respond("➻ Tağ üçün səbəb yazmadın ! ")
   else:
-    return await event.respond("➻ 𝖤𝗍𝗂𝗄𝖾𝗍 𝗂𝗌𝗅𝖾𝗆𝗂𝗇𝖾 𝖻𝖺𝗌𝗅𝖺𝗆𝖺𝗆 𝗂𝖼𝗂𝗇 𝖻𝗂𝗋 𝗌𝖾𝖻𝖾𝗉 𝗒𝖺𝗓𝗂𝗇 ! ")
+    return await event.respond("➻ Tağ etmək üçün bir səbəb yazın ! ")
     
   if mode == "text_on_cmd":
-    await client.send_message(event.chat_id, "✅ 𝖴𝗒𝖾 𝖾𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗆𝖾 𝗂𝗌𝗅𝖾𝗆𝗂 𝖻𝖺𝗌𝗅𝖺𝖽𝗂 . . .",
+    await client.send_message(event.chat_id, "✅ Userləri tağ etmək başladı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪𝖺𝗇𝖺𝗅  📝', f'https://t.me/{support}')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/ferooresmi')
                       ]
                     )
                   ) 
@@ -356,10 +356,10 @@ async def etag(event):
       usrnum += 1
       usrtxt += f"[{random.choice(emoji)}](tg://user?id={usr.id}) , "
       if event.chat_id not in etiket_tagger:
-        await event.respond("⛔ 𝖴𝗒𝖾 𝖾𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗆𝖾 𝗂𝗌𝗅𝖾𝗆𝗂 𝖽𝗎𝗋𝖽𝗎𝗋𝗎𝗅𝖽𝗎 . . .",
+        await event.respond("⛔ User tağ etmək işi dayandırıldı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪𝖺𝗇𝖺𝗅  📝', f'https://t.me/{support}')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/{support}')
                       ]
                     )
                   )
@@ -444,17 +444,17 @@ async def stag(event):
     mode = "text_on_reply"
     msg = event.reply_to_msg_id
     if msg == None:
-        return await event.respond("➻ 𝖤𝗌𝗄𝗂 𝖬𝖾𝗌𝖺𝗃𝗅𝖺𝗋𝗂 𝖦𝗈𝗋𝖾𝗆𝗂𝗒𝗈𝗋𝗎𝗆 ! ")
+        return await event.respond("➻ Evvelki Mesajları görə bilmirəm ! ")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
-    return await event.respond("➻ 𝖤𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗆𝖾 𝖬𝖾𝗌𝖺𝗃𝗂 𝖸𝖺𝗓𝗆𝖺𝖽𝗂𝗇 ! ")
+    return await event.respond("➻ Tağ üçün səbəb yazmadın ! ")
   else:
-    return await event.respond("➻ 𝖤𝗍𝗂𝗄𝖾𝗍 𝗂𝗌𝗅𝖾𝗆𝗂𝗇𝖾 𝖻𝖺𝗌𝗅𝖺𝗆𝖺𝗆 𝗂𝖼𝗂𝗇 𝖻𝗂𝗋 𝗌𝖾𝖻𝖾𝗉 𝗒𝖺𝗓𝗂𝗇 ! ")
+    return await event.respond("➻ Tağ etmək üçün bir səbəb yaz ! ")
     
   if mode == "text_on_cmd":
-    await client.send_message(event.chat_id, "➻ 𝖴𝗒𝖾 𝖾𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗆𝖾 𝗂𝗌𝗅𝖾𝗆𝗂 𝖻𝖺𝗌𝗅𝖺𝖽𝗂 . . .",
+    await client.send_message(event.chat_id, "➻ Userləri tağ etmək başladıldı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪𝖺𝗇𝖺𝗅  📝', f'https://t.me/{support}')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/ferooresmi')
                       ]
                     )
                   ) 
@@ -465,10 +465,10 @@ async def stag(event):
       usrnum += 1
       usrtxt += f"[{random.choice(soz)}](tg://user?id={usr.id}) "
       if event.chat_id not in etiket_tagger:
-        await event.respond("⛔ 𝖴𝗒𝖾 𝖾𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗆𝖾 𝗂𝗌𝗅𝖾𝗆𝗂 𝖽𝗎𝗋𝖽𝗎𝗋𝗎𝗅𝖽𝗎 . . .",
+        await event.respond("⛔ Userləri tağ etməyim dayandırıldı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪𝖺𝗇𝖺𝗅  📝', f'https://t.me/{support}')
+                       Button.url('📝  KANAL  📝', f'https://t.me/ferooresmi')
                       ]
                     )
                   )
@@ -510,17 +510,17 @@ async def rtag(event):
     mode = "text_on_reply"
     msg = event.reply_to_msg_id
     if msg == None:
-        return await event.respond("**➻ Eski mesajları göremiyorum !**")
+        return await event.respond("**➻ Evvelki mesajları görə bilmirəm !**")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
-    return await event.respond("**➻ Etiketleme mesajı yazmadın !**")
+    return await event.respond("**➻ Tağ üçün səbəb yazmadın !**")
   else:
-    return await event.respond("**➻ Etiketleme için bir mesaj yazın !**")
+    return await event.respond("**➻ Tağ etmək üçün bir səbəb yaz !**")
     
   if mode == "text_on_cmd":
-    await client.send_message(event.chat_id, "✅ 𝖴𝗒𝖾 𝖾𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗆𝖾 𝗂𝗌𝗅𝖾𝗆𝗂 𝖻𝖺𝗌𝗅𝖺𝖽𝗂 . . .",
+    await client.send_message(event.chat_id, "✅ 𝖴serləri tağ etmək başladı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪𝖺𝗇𝖺𝗅  📝', f'https://t.me/{support}')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/ferooresmi')
                       ]
                     )
                   ) 
@@ -531,10 +531,10 @@ async def rtag(event):
       usrnum += 1
       usrtxt += f"[{random.choice(renk)}](tg://user?id={usr.id}) "
       if event.chat_id not in etiket_tagger:
-        await event.respond("⛔ 𝖴𝗒𝖾 𝖾𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗆𝖾 𝗂𝗌𝗅𝖾𝗆𝗂 𝖽𝗎𝗋𝖽𝗎𝗋𝗎𝗅𝖽𝗎 .",
+        await event.respond("⛔ 𝖴serləri tağ etməyim dayandırıldı...",
                     buttons=(
                       [
-                       Button.url('📝  𝖪𝖺𝗇𝖺𝗅  📝', f'https://t.me/{support}')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/ferooresmi')
                       ]
                     )
                   )
@@ -564,8 +564,8 @@ async def eros_oku(event):
     second_user_md_mention = f'**[{second_user.first_name}](tg://user?id={second_user.id})**'
     
     response = (
-        f"**Eros'un oku atıldı.💘**\n**Aşıklar:**\n\n"
-        f"{first_user_md_mention} 💞 {second_user_md_mention} \n`Uyumluluk oranı: %{random.randint(0, 100)}`"
+        f"**Eros'un oxu atıldı.💘**\n**Aşiqlər:**\n\n"
+        f"{first_user_md_mention} 💞 {second_user_md_mention} \n`Uyumluluğ faizi: %{random.randint(0, 100)}`"
     )
     
     await event.respond(response, parse_mode="Markdown")
