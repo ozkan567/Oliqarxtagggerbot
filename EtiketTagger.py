@@ -150,10 +150,10 @@ async def mentionall(event):
     return await event.respond("➻ 𝖤𝗍𝗂𝗄𝖾𝗍 𝗂𝗌𝗅𝖾𝗆𝗂𝗇𝖾 𝖻𝖺𝗌𝗅𝖺𝗆𝖺𝗆 𝗂𝖼𝗂𝗇 𝖻𝗂𝗋 𝗌𝖾𝖻𝖾𝗉 𝗒𝖺𝗓𝗂𝗇 ! ")
     
   if mode == "text_on_cmd":
-    await client.send_message(event.chat_id, "✅ 𝖴𝗒𝖾 𝖾𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗆𝖾 𝗂𝗌𝗅𝖾𝗆𝗂 𝖻𝖺𝗌𝗅𝖺𝖽𝗂 . . .",
+    await client.send_message(event.chat_id, "✅ Tağ etmək işi başladıldı . . .",
                     buttons=(
                       [
-                      Button.url('📝  𝖪𝖺𝗇𝖺𝗅  📝', f'https://t.me/{support}')
+                      Button.url('📝  𝖪ANAL  📝', f'https://t.me/ferooresmi')
                       ]
                     )
                   ) 
@@ -164,10 +164,10 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) , "
       if event.chat_id not in etiket_tagger:
-        await event.respond("⛔ 𝖴𝗒𝖾 𝖾𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗆𝖾 𝗂𝗌𝗅𝖾𝗆𝗂 𝖽𝗎𝗋𝖽𝗎𝗋𝗎𝗅𝖽𝗎 . . .",
+        await event.respond("⛔ Tağ etmək işi dayandırıldı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪𝖺𝗇𝖺𝗅  📝', f'https://t.me/{support}')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/ferooresmi')
                       ]
                     )
                   )
@@ -204,15 +204,15 @@ async def mentionalladmin(event):
     if msg == None:
         return await event.respond("➻ 𝖤𝗌𝗄𝗂 𝖬𝖾𝗌𝖺𝗃𝗅𝖺𝗋𝗂 𝖦𝗈𝗋𝖾𝗆𝗂𝗒𝗈𝗋𝗎𝗆 ! ")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
-    return await event.respond("➻ 𝖤𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗆𝖾 𝖬𝖾𝗌𝖺𝗃𝗂 𝖸𝖺𝗓𝗆𝖺𝖽𝗂𝗇 ! ")
+    return await event.respond("➻ Tağ etmək üçün səbəb yaz ! ")
   else:
-    return await event.respond("➻ 𝖤𝗍𝗂𝗄𝖾𝗍 𝗂𝗌𝗅𝖾𝗆𝗂𝗇𝖾 𝖻𝖺𝗌𝗅𝖺𝗆𝖺𝗆 𝗂𝖼𝗂𝗇 𝖻𝗂𝗋 𝗌𝖾𝖻𝖾𝗉 𝗒𝖺𝗓𝗂𝗇 ! ")
+    return await event.respond("➻ Tağ etməyim üçün bir səbəb yazın ! ")
     
   if mode == "text_on_cmd":
-    await client.send_message(event.chat_id, "✅ 𝖠𝖽𝗆𝗂𝗇 𝖾𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗆𝖾 𝗂𝗌𝗅𝖾𝗆𝗂 𝖻𝖺𝗌𝗅𝖺𝖽𝗂 . . .",
+    await client.send_message(event.chat_id, "✅ 𝖠𝖽𝗆𝗂𝗇 tağ etmek başladı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪𝖺𝗇𝖺𝗅  📝', f'https://t.me/{support}')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/ferooresmi')
                       ]
                     )
                   ) 
@@ -223,10 +223,10 @@ async def mentionalladmin(event):
       usrnum += 1
       usrtxt += f" [{usr.first_name}](tg://user?id={usr.id}) "
       if event.chat_id not in etiket_tagger:
-        await event.respond("⛔ 𝖠𝖽𝗆𝗂𝗇 𝖾𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗆𝖾 𝗂𝗌𝗅𝖾𝗆𝗂 𝖽𝗎𝗋𝖽𝗎𝗋𝗎𝗅𝖽𝗎 . . .",
+        await event.respond("⛔ 𝖠𝖽𝗆𝗂𝗇 tağ etmek işi dayandırıldı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪𝖺𝗇𝖺𝗅  📝', f'https://t.me/{support}')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/ferooresmi')
                       ]
                     )
                   )
@@ -261,17 +261,17 @@ async def tektag(event):
     mode = "text_on_reply"
     msg = event.reply_to_msg_id
     if msg == None:
-        return await event.respond("➻ 𝖤𝗌𝗄𝗂 𝖬𝖾𝗌𝖺𝗃𝗅𝖺𝗋𝗂 𝖦𝗈𝗋𝖾𝗆𝗂𝗒𝗈𝗋𝗎𝗆 ! ")
+        return await event.respond("➻ Evvelki mesajları görə bilmirəm ! ")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
-    return await event.respond("➻ 𝖤𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗆𝖾 𝖬𝖾𝗌𝖺𝗃𝗂 𝖸𝖺𝗓𝗆𝖺𝖽𝗂𝗇 ! ")
+    return await event.respond("➻ Tağ etmek üçün mesaj 𝖸𝖺𝗓𝗆𝖺𝖽ın ! ")
   else:
-    return await event.respond("➻ 𝖤𝗍𝗂𝗄𝖾𝗍 𝗂𝗌𝗅𝖾𝗆𝗂𝗇𝖾 𝖻𝖺𝗌𝗅𝖺𝗆𝖺𝗆 𝗂𝖼𝗂𝗇 𝖻𝗂𝗋 𝗌𝖾𝖻𝖾𝗉 𝗒𝖺𝗓𝗂𝗇 ! ")
+    return await event.respond("➻ Tağ etmək üçün bir səbəb yaz ! ")
     
   if mode == "text_on_cmd":
-    await client.send_message(event.chat_id, "✅ 𝖴𝗒𝖾 𝖾𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗆𝖾 𝗂𝗌𝗅𝖾𝗆𝗂 𝖻𝖺𝗌𝗅𝖺𝖽𝗂 . . .",
+    await client.send_message(event.chat_id, "✅ Userləri tağ etmək başladı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪𝖺𝗇𝖺𝗅  📝', f'https://t.me/{support}')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/ferooresmi')
                       ]
                     )
                   ) 
@@ -282,10 +282,10 @@ async def tektag(event):
       usrnum += 1
       usrtxt += f" [{usr.first_name}](tg://user?id={usr.id}) "
       if event.chat_id not in etiket_tagger:
-        await event.respond("⛔ 𝖴𝗒𝖾 𝖾𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗆𝖾 𝗂𝗌𝗅𝖾𝗆𝗂 𝖽𝗎𝗋𝖽𝗎𝗋𝗎𝗅𝖽𝗎 . . .",
+        await event.respond("⛔ Userləri tağ etməyim dayandı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪𝖺𝗇𝖺𝗅  📝', f'https://t.me/{support}')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/ferooresmi')
                       ]
                     )
                   )
