@@ -87,7 +87,7 @@ async def start(event):
                       [
                        Button.url('📚  Əmrlər  ', f'https://t.me/ferootag_komutlari/7'), #komutların olduğu kanal
                        Button.url('👨‍💻  Sahib  ', f'https://t.me/The_ferid')], #sahibin telegram profil linki
-                       [Button.url('📝  Kanal  ', f'https://t.me/{support}')] #Kanalın destek grubu vs
+                       [Button.url('📝  Kanal  ', f'https://t.me/ferooresmi')] #Kanalın destek grubu vs
                     ),
                     link_preview=False)
 
@@ -105,7 +105,7 @@ async def handler(event):
                        Button.url('🎉  Məni Qrupa Əlavə et 🎉', f'https://t.me/{USERNAME}?startgroup=a')],
                       [Button.url("📚  Əmrlər  ", f'https://t.me/ferootag_komutlari/7'), #komutların olduğu kanal
                        Button.url('👨‍💻  Sahib  ', f'https://t.me/The_ferid')] #sahibin telegram profil linki
-                       [Button.url('📝  Kanal  ', f'https://t.me/{support}')] #Kanalın destek grubu vs
+                       [Button.url('📝  Kanal  ', f'https://t.me/ferooresmi')] #Kanalın destek grubu vs
                     ),
                     link_preview=False)
 
