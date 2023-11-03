@@ -78,14 +78,14 @@ async def cancel(event):
 async def start(event):
   if event.is_private:
     async for usr in client.iter_participants(event.chat_id):
-     ad = f"👋 Merhaba [{usr.first_name}](tg://user?id={usr.id}) "
+     ad = f"👋 Salam [{usr.first_name}](tg://user?id={usr.id}) "
      grup_link = f"https://t.me/{USERNAME}?startgroup=a"
      await client.send_message(log_qrup, f"ℹ️ **Yeni Kullanıcı -** \n {ad}")
      return await event.reply(f"{ad} {startmesaj}", buttons=(
                       [
                        Button.url('🎉  Məni Qrupa Əlavə Et  🎉', f'https://t.me/{USERNAME}?startgroup=a')],
                       [
-                       Button.url('📚  𝖪𝗈𝗆𝗎𝗍𝗅𝖺𝗋  ', f'https://t.me/ferootag_komutlari/7'), #komutların olduğu kanal
+                       Button.url('📚  Əmrlər  ', f'https://t.me/ferootag_komutlari/7'), #komutların olduğu kanal
                        Button.url('👨‍💻  Sahib  ', f'https://t.me/The_ferid')], #sahibin telegram profil linki
                        [Button.url('📝  Kanal  ', f'https://t.me/{support}')] #Kanalın destek grubu vs
                     ),
@@ -99,13 +99,13 @@ async def start(event):
 @client.on(events.callbackquery.CallbackQuery(data="start"))
 async def handler(event):
     async for usr in client.iter_participants(event.chat_id):
-     ad = f"👋 Merhaba [{usr.first_name}](tg://user?id={usr.id}) "
+     ad = f"👋 Salam [{usr.first_name}](tg://user?id={usr.id}) "
      await event.edit(f"{ad} {startmesaj}", buttons=(
                       [
-                       Button.url('🎉  𝖡𝖾𝗇𝗂 𝖦𝗋𝗎𝖻𝖺 𝖤𝗄𝗅𝖾  🎉', f'https://t.me/{USERNAME}?startgroup=a')],
-                      [Button.url("📚  𝖪𝗈𝗆𝗎𝗍𝗅𝖺𝗋  ", f'https://t.me/Samilbots/69'), #komutların olduğu kanal
-                       Button.url('👨‍💻  𝖮𝗐𝗇𝖾𝗋  ', f'https://t.me/Samilben')] #sahibin telegram profil linki
-                       [Button.url('📝  𝖢𝗁𝖺𝗇𝗇𝖾𝗅  ', f'https://t.me/{support}')] #Kanalın destek grubu vs
+                       Button.url('🎉  Məni Qrupa Əlavə et 🎉', f'https://t.me/{USERNAME}?startgroup=a')],
+                      [Button.url("📚  Əmrlər  ", f'https://t.me/ferootag_komutlari/7'), #komutların olduğu kanal
+                       Button.url('👨‍💻  Sahib  ', f''https://t.me/The_ferid')] #sahibin telegram profil linki
+                       [Button.url('📝  Kanal  ', f'https://t.me/{support}')] #Kanalın destek grubu vs
                     ),
                     link_preview=False)
 
@@ -114,8 +114,8 @@ async def handler(event):
 async def handler(event):
     await event.edit(f"{komutlar}", buttons=(
                       [
-                      Button.url('📣  𝖲𝗎𝗉𝗉𝗈𝗋𝗍  ', f'https://t.me/DeveloperSohbet'), #destek grubun linki
-                      Button.url('🇹🇷  𝖮𝗐𝗇𝖾𝗋  ', f'https://t.me/{sahib}') #sahibin telegram profil linki
+                      Button.url('📣 Söhbət Qrupu  ', f'https://t.me/sah_team'), #destek grubun linki
+                      Button.url('🇦🇿 SAHİB  ', f'https://t.me/{sahib}') #sahibin telegram profil linki
                       ],
                       [
                       Button.inline("<  𝖦𝖾𝗋𝗂  >", data="start"),
