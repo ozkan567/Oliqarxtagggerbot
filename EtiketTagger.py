@@ -83,11 +83,11 @@ async def start(event):
      await client.send_message(log_qrup, f"ℹ️ **Yeni Kullanıcı -** \n {ad}")
      return await event.reply(f"{ad} {startmesaj}", buttons=(
                       [
-                       Button.url('🎉  𝖡𝖾𝗇𝗂 𝖦𝗋𝗎𝖻𝖺 𝖤𝗄𝗅𝖾  🎉', f'https://t.me/{USERNAME}?startgroup=a')],
+                       Button.url('🎉  Məni Qrupa Əlavə Et  🎉', f'https://t.me/{USERNAME}?startgroup=a')],
                       [
-                       Button.url('📚  𝖪𝗈𝗆𝗎𝗍𝗅𝖺𝗋  ', f'https://t.me/Samilbots/69'), #komutların olduğu kanal
-                       Button.url('👨‍💻  𝖮𝗐𝗇𝖾𝗋  ', f'https://t.me/Samilben')], #sahibin telegram profil linki
-                       [Button.url('📝  𝖢𝗁𝖺𝗇𝗇𝖾𝗅  ', f'https://t.me/{support}')] #Kanalın destek grubu vs
+                       Button.url('📚  𝖪𝗈𝗆𝗎𝗍𝗅𝖺𝗋  ', f'https://t.me/ferootag_komutlari/7'), #komutların olduğu kanal
+                       Button.url('👨‍💻  Sahib  ', f'https://t.me/The_ferid')], #sahibin telegram profil linki
+                       [Button.url('📝  Kanal  ', f'https://t.me/{support}')] #Kanalın destek grubu vs
                     ),
                     link_preview=False)
 
