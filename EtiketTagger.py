@@ -71,7 +71,11 @@ etiket_tagger = [] # etiket tagger için kullanılır
 async def cancel(event):
   global etiket_tagger
 #  etiket_tagger.remove(event.chat_id)
-
+@client.on(events.NewMessage(pattern="^/Cancel$"))
+async def cancel(event):
+  global etiket_tagger
+   if event.is_private:
+    return await event.respond(f"{nogroup}")
   
 # Başlanğıc Mesajı
 @client.on(events.NewMessage(pattern="^/start$"))
