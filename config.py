@@ -37,7 +37,7 @@ import random
 
 #
 # 
-api_id = 9801712684 #my.telegram.org/apps adresinden alabilirsiniz 
+api_id = 26090016 #my.telegram.org/apps adresinden alabilirsiniz 
 api_hash = "5b842f9801712684f2b98d70ead6538d" #my.telegram.org/apps adresinden alabilirsiniz
 bot_token = "6735913033:AAFAtIgbv046k_Dm37BZteAD3JCq40I1dWI" #botfatherdan alabilirsiniz
 
