@@ -66,15 +66,22 @@ anlik_calisan = [] # bu botun çalıştığını anlamak için kullanılır
 etiket_tagger = [] # etiket tagger için kullanılır
 
 
-#tektag
-@client.on(events.NewMessage(pattern="^/start$"))
+@client.on(events.NewMessage(pattern="^/cance$"))
 async def cancel(event):
-  global etiket_tagger
-#  etiket_tagger.remove(event.chat_id)
+    global etiket_tagger
 
-@client.on(events.NewMessage(pattern="^/Cancel$"))
+
+# etiket_tagger.remove(event.chat_id)
+
+
+# etiket işlemini iptal eder
+@client.on(events.NewMessage(pattern="^/cancel$"))
 async def cancel(event):
-  global etiket_tagger
+    global etiket_tagger
+    if event.chat_id in etiket_tagger:
+        etiket_tagger.remove(event.chat_id)
+
+
   
 # Başlanğıc Mesajı
 @client.on(events.NewMessage(pattern="^/start$"))
