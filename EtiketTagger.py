@@ -95,7 +95,7 @@ async def start(event):
                       [
                        Button.url('🎉  Məni Qrupa Əlavə Et  🎉', f'https://t.me/{USERNAME}?startgroup=a')],
                       [
-                       Button.url('📚  Əmrlər  ', f'https://t.me/'), #komutların olduğu kanal
+                       Button.url('📚  Əmrlər  ', f'https://t.me/TagBotEmirleri'), #komutların olduğu kanal
                        Button.url('👨‍💻  Sahib  ', f'https://t.me/MuradAndMee')], #sahibin telegram profil linki
                        [Button.url('📝  Kanal  ', f'https://t.me/KohneFikirler')] #Kanalın destek grubu vs
                     ),
@@ -113,7 +113,7 @@ async def handler(event):
      await event.edit(f"{ad} {startmesaj}", buttons=(
                       [
                        Button.url('🎉  Məni Qrupa Əlavə et 🎉', f'https://t.me/{USERNAME}?startgroup=a')],
-                      [Button.url("📚  Əmrlər  ", f'https://t.me/ferootag_komutlari/7'), #komutların olduğu kanal
+                      [Button.url("📚  Əmrlər  ", f'https://t.me/TagBotEmirleri'), #komutların olduğu kanal
                        Button.url('👨‍💻  Sahib  ', f'https://t.me/MuradAndMee')] #sahibin telegram profil linki
                        [Button.url('📝  Kanal  ', f'https://t.me/KohneFikirler')] #Kanalın destek grubu vs
                     ),
@@ -124,7 +124,7 @@ async def handler(event):
 async def handler(event):
     await event.edit(f"{komutlar}", buttons=(
                       [
-                      Button.url('📣 Söhbət Qrupu  ', f'https://t.me/sah_team'), #destek grubun linki
+                      Button.url('📣 Söhbət Qrupu  ', f'https://t.me/OliqarxTeam'), #destek grubun linki
                       Button.url('🇦🇿 SAHİB  ', f'https://t.me/{sahib}') #sahibin telegram profil linki
                       ],
                       [
@@ -163,7 +163,7 @@ async def mentionall(event):
     await client.send_message(event.chat_id, "✅ Tağ etmək işi başladıldı . . .",
                     buttons=(
                       [
-                      Button.url('📝  𝖪ANAL  📝', f'https://t.me/ferooresmi')
+                      Button.url('📝  𝖪ANAL  📝', f'https://t.me/KohneFikirler')
                       ]
                     )
                   ) 
@@ -177,7 +177,7 @@ async def mentionall(event):
         await event.respond("⛔ Tağ etmək işi dayandırıldı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/ferooresmi')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/KohneFikirler')
                       ]
                     )
                   )
@@ -222,7 +222,7 @@ async def mentionalladmin(event):
     await client.send_message(event.chat_id, "✅ 𝖠𝖽𝗆𝗂𝗇 tağ etmek başladı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/ferooresmi')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/KohneFikirler')
                       ]
                     )
                   ) 
@@ -236,7 +236,7 @@ async def mentionalladmin(event):
         await event.respond("⛔ 𝖠𝖽𝗆𝗂𝗇 tağ etmek işi dayandırıldı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/ferooresmi')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/KohneFikirler')
                       ]
                     )
                   )
@@ -281,7 +281,7 @@ async def tektag(event):
     await client.send_message(event.chat_id, "✅ Userləri tağ etmək başladı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/ferooresmi')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/KohneFikirler')
                       ]
                     )
                   ) 
@@ -295,7 +295,7 @@ async def tektag(event):
         await event.respond("⛔ Userləri tağ etməyim dayandı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/ferooresmi')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/KohneFikirler')
                       ]
                     )
                   )
@@ -355,7 +355,7 @@ async def etag(event):
     await client.send_message(event.chat_id, "✅ Userləri tağ etmək başladı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/ferooresmi')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/KohneFikirler')
                       ]
                     )
                   ) 
@@ -464,7 +464,7 @@ async def stag(event):
     await client.send_message(event.chat_id, "➻ Userləri tağ etmək başladıldı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/ferooresmi')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/KohneFikirler')
                       ]
                     )
                   ) 
@@ -478,7 +478,7 @@ async def stag(event):
         await event.respond("⛔ Userləri tağ etməyim dayandırıldı . . .",
                     buttons=(
                       [
-                       Button.url('📝  KANAL  📝', f'https://t.me/ferooresmi')
+                       Button.url('📝  KANAL  📝', f'https://t.me/KohneFikirler')
                       ]
                     )
                   )
@@ -530,7 +530,7 @@ async def rtag(event):
     await client.send_message(event.chat_id, "✅ 𝖴serləri tağ etmək başladı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/ferooresmi')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/KohneFikirler')
                       ]
                     )
                   ) 
@@ -544,7 +544,7 @@ async def rtag(event):
         await event.respond("⛔ 𝖴serləri tağ etməyim dayandırıldı...",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/ferooresmi')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/KohneFikirler')
                       ]
                     )
                   )
