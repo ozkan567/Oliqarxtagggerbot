@@ -46,7 +46,7 @@ client = TelegramClient("Samil", api_id, api_hash).start(bot_token=bot_token)
 USERNAME = "OliqarxTagBot" #botunuzun kullanıcı adı
 log_qrup = -1002136310185 #log qrupunuzun idsi
 startmesaj = "💌 Əmrlər Düyməsini Klikləyin Və Əmrləri Öyrənin...\n📚 Mən Bəzi Faydalı Xüsusiyyətləri Olan Telegram Üzvü Tagger Botuyam" #start mesajınız
-komutlar = "🇦🇿 Bütün Əmrlər ;\n\n» /utag   <  mesaj  >\n   - Userləri 5'li tağ edər .\n\n» /tag   <  mesaj  >\n   - Userləri tək tək tağ edər .\n\n» /atag   <  mesaj  >\n   - Adminləri tağ edər .\n\n» /etag   <  mesaj  >\n   - Userləri emoji ilə tağ edər .\n\n» /stag   <  mesaj  >\n   - Userləri gözəl sözlər ilə tağ edər .\n\n» /cancel < mesaj >\n   - Tağ prosesin deyandirar ." #komutların olduğu mesaj
+komutlar = "🇦🇿 Bütün Əmrlər ;\n\n» /utag   <  mesaj  >\n   - Userləri 5'li tağ edər .\n\n» /tag   <  mesaj  >\n   - Userləri tək tək tağ edər .\n\n» /atag   <  mesaj  >\n   - Adminləri tağ edər .\n\n» /etag   <  mesaj  >\n   - Userləri emoji ilə tağ edər .\n\n» /stag   <  mesaj  >\n   - Userləri gözəl sözlər ilə tağ edər .\n\n» /cancel = >\n   - Tağ prosesin deyandirar ." #komutların olduğu mesaj
 qrupstart = "• 𝖲𝗎𝖺𝗇 𝖠𝗄𝗍𝗂𝖿 𝖢𝖺𝗅𝗂𝗌𝗆𝖺𝗄𝗍𝖺𝗒𝗂𝗆 . . .\n\n• Əmrləri 𝖦𝗈𝗋𝗆𝖾𝗄 İ𝖼𝗂𝗇 𝖡𝗈𝗍a Start Verib B𝖺𝗌𝗅𝖺𝗍𝗂𝗇 . . ." #aktif olduğunda gruba gelen mesaj
 support = "OliqarxTeam" #destek qrupunuzun kullanıcı adı
 sahib = "MuradAndMee" #sahibinizin kullanıcı adı
