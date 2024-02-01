@@ -49,7 +49,7 @@ startmesaj = "💌 Əmrlər arkadaşlarınızı nasıl etiketlemek istersiniz ..
 komutlar = "🇦🇿 Bütün etiketler ;\n\n» /utag   <  mesaj  >\n   - üyeleri 5'li etiketler .\n\n» /tag   <  mesaj  >\n   - üyeleri tek tek etiketler .\n\n» /atag   <  mesaj  >\n   - Adminleri etiketler .\n\n» /etag   <  mesaj  >\n   - üyeleri emoji ile etiketler .\n\n» /stag   <  mesaj  >\n   - üyeleri güzel söz ile etiketler .\n\n» /cancel = >\n   - etiketleme işlemi durdurulur ." #komutların olduğu mesaj
 qrupstart = "• şuan aktif çalışmaktayım  . . .\n\n• üyeleri etiketlemek için grubunuza ekleyin . . ." #aktif olduğunda gruba gelen mesaj
 support = "OliqarxTeam" #destek qrupunuzun kullanıcı adı
-sahib = "MuradAndMee" #sahibinizin kullanıcı adı
+sahib = "rahatsizetmeyiniz34" #sahibinizin kullanıcı adı
 noadmin = "➻ Üzgünüm Ama Yönetici Değilsiniz ." #yönetici olmayanlar için mesaj
 
 #
