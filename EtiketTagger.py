@@ -95,9 +95,9 @@ async def start(event):
                       [
                        Button.url('🎉  beni gruba davet et  🎉', f'https://t.me/{USERNAME}?startgroup=a')],
                       [
-                       Button.url('📚  komutlar ', f'https://t.me/cavresozel'), #komutların olduğu kanal
-                       Button.url('👨‍💻  Sahip  ', f'https://t.me/Rahatsizetmeyiniz34')], #sahibin telegram profil linki
-                       [Button.url('📝  Kanal  ', f'https://t.me/cavresozel')] #Kanalın destek grubu vs
+                       Button.url('📚  komutlar ', f'https://t.me/medikalsohbettr'), #komutların olduğu kanal
+                       Button.url('👨‍💻  Sahip  ', f'https://t.me/parliamenttr')], #sahibin telegram profil linki
+                       [Button.url('📝  Kanal  ', f'https://t.me/sudenazetiket')] #Kanalın destek grubu vs
                     ),
                     link_preview=False)
 
@@ -113,9 +113,9 @@ async def handler(event):
      await event.edit(f"{ad} {startmesaj}", buttons=(
                       [
                        Button.url('🎉  beni gruba davet et 🎉', f'https://t.me/{USERNAME}?startgroup=a')],
-                      [Button.url("📚  komutlar ", f'https://t.me/cavresozel'), #komutların olduğu kanal
-                       Button.url('👨‍💻  Sahib  ', f'https://t.me/Rahatsizetmeyiniz34')] #sahibin telegram profil linki
-                       [Button.url('📝  Kanal  ', f'https://t.me/cavresozel')] #Kanalın destek grubu vs
+                      [Button.url("📚  komutlar ", f'https://t.me/medikalsohbettr'), #komutların olduğu kanal
+                       Button.url('👨‍💻  Sahib  ', f'https://t.me/parliamenttr')] #sahibin telegram profil linki
+                       [Button.url('📝  Kanal  ', f'https://t.me/sudenazetiket')] #Kanalın destek grubu vs
                     ),
                     link_preview=False)
 
@@ -124,8 +124,8 @@ async def handler(event):
 async def handler(event):
     await event.edit(f"{komutlar}", buttons=(
                       [
-                      Button.url('📣 Sohbet grubu  ', f'https://t.me/cavresozel'), #destek grubun linki
-                      Button.url('📣 SAHİP ', f'https://t.me/{sahib}') #sahibin telegram profil linki
+                      Button.url('📣 Sohbet grubu  ', f'https://t.me/medikalsohbettr'), #destek grubun linki
+                      Button.url('📣 SAHİP ', f'https://t.me/parliamenttr') #sahibin telegram profil linki
                       ],
                       [
                       Button.inline("<  𝖦𝖾𝗋𝗂  >", data="start"),
@@ -163,7 +163,7 @@ async def mentionall(event):
     await client.send_message(event.chat_id, " 📢 üyeleri etiketleme işlemi başladı . . .",
                     buttons=(
                       [
-                      Button.url('📝  𝖪ANAL  📝', f'https://t.me/cavresozel')
+                      Button.url('📝  𝖪ANAL  📝', f'https://t.me/sudenazetiket')
                       ]
                     )
                   ) 
@@ -177,7 +177,7 @@ async def mentionall(event):
         await event.respond("⛔ üyeleri etiketleme işlemi durduruldu. . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/cavresozel')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/medikalsohbettr')
                       ]
                     )
                   )
@@ -222,7 +222,7 @@ async def mentionalladmin(event):
     await client.send_message(event.chat_id, " 📢 𝖠𝖽𝗆𝗂𝗇 etiket islemi başladı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/cavresozel')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/medikalsohbettr')
                       ]
                     )
                   ) 
@@ -236,7 +236,7 @@ async def mentionalladmin(event):
         await event.respond("⛔ 𝖠𝖽𝗆𝗂𝗇 etiket islemi durduruldu . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/cavresozel')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/medikalsohbettr')
                       ]
                     )
                   )
@@ -281,7 +281,7 @@ async def tektag(event):
     await client.send_message(event.chat_id, " 📢 üyeleri etiketleme işlemi başladı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/KohneFikirler')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/sudenazetiket')
                       ]
                     )
                   ) 
@@ -295,7 +295,7 @@ async def tektag(event):
         await event.respond("⛔ üyeleri etiketleme işlemi durduruldu . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/cavresozel')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/medikalsohbettr')
                       ]
                     )
                   )
@@ -355,7 +355,7 @@ async def etag(event):
     await client.send_message(event.chat_id, " 📢 üyeleri etiketleme işlemi başladı . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/cavresozel')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/sudenazetiket')
                       ]
                     )
                   ) 
@@ -369,7 +369,7 @@ async def etag(event):
         await event.respond("⛔ üyeleri etiketleme işlemi durduruldu . . .",
                     buttons=(
                       [
-                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/{support}')
+                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/medikalsohbettr')
                       ]
                     )
                   )
