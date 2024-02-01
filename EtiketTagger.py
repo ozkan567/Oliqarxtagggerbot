@@ -160,7 +160,7 @@ async def mentionall(event):
     return await event.respond("➻ etiket için bir sebep yazın ! ")
     
   if mode == "text_on_cmd":
-    await client.send_message(event.chat_id, "✅ üyeleri etiketleme işlemi başladı . . .",
+    await client.send_message(event.chat_id, " 📢 üyeleri etiketleme işlemi başladı . . .",
                     buttons=(
                       [
                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/cavresozel')
@@ -174,7 +174,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) , "
       if event.chat_id not in etiket_tagger:
-        await event.respond("⛔ üyeleri etiketleme işlemi başladı. . .",
+        await event.respond("⛔ üyeleri etiketleme işlemi durduruldu. . .",
                     buttons=(
                       [
                        Button.url('📝  𝖪ANAL  📝', f'https://t.me/cavresozel')
@@ -219,7 +219,7 @@ async def mentionalladmin(event):
     return await event.respond("➻ etiket islemi icin bir sebep yazın ! ")
     
   if mode == "text_on_cmd":
-    await client.send_message(event.chat_id, "✅ 𝖠𝖽𝗆𝗂𝗇 etiket islemi başladı . . .",
+    await client.send_message(event.chat_id, " 📢 𝖠𝖽𝗆𝗂𝗇 etiket islemi başladı . . .",
                     buttons=(
                       [
                        Button.url('📝  𝖪ANAL  📝', f'https://t.me/cavresozel')
@@ -233,7 +233,7 @@ async def mentionalladmin(event):
       usrnum += 1
       usrtxt += f" [{usr.first_name}](tg://user?id={usr.id}) "
       if event.chat_id not in etiket_tagger:
-        await event.respond("⛔ 𝖠𝖽𝗆𝗂𝗇 etiket islemi başladı . . .",
+        await event.respond("⛔ 𝖠𝖽𝗆𝗂𝗇 etiket islemi durduruldu . . .",
                     buttons=(
                       [
                        Button.url('📝  𝖪ANAL  📝', f'https://t.me/cavresozel')
@@ -271,14 +271,14 @@ async def tektag(event):
     mode = "text_on_reply"
     msg = event.reply_to_msg_id
     if msg == None:
-        return await event.respond("➻ Evvelki mesajları görə bilmirəm ! ")
+        return await event.respond("➻ Eski mesajları goremiyorum ! ")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
     return await event.respond("➻ etiket için mesaj 𝖸𝖺𝗓𝗆𝖺𝖽ın ! ")
   else:
     return await event.respond("➻ etiket için bir neden yazınız  ! ")
     
   if mode == "text_on_cmd":
-    await client.send_message(event.chat_id, "✅ üyeleri etiketleme işlemi başladı . . .",
+    await client.send_message(event.chat_id, " 📢 üyeleri etiketleme işlemi başladı . . .",
                     buttons=(
                       [
                        Button.url('📝  𝖪ANAL  📝', f'https://t.me/KohneFikirler')
@@ -292,7 +292,7 @@ async def tektag(event):
       usrnum += 1
       usrtxt += f" [{usr.first_name}](tg://user?id={usr.id}) "
       if event.chat_id not in etiket_tagger:
-        await event.respond("⛔ üyeleri etiketleme işlemi başladı . . .",
+        await event.respond("⛔ üyeleri etiketleme işlemi durduruldu . . .",
                     buttons=(
                       [
                        Button.url('📝  𝖪ANAL  📝', f'https://t.me/cavresozel')
@@ -352,7 +352,7 @@ async def etag(event):
     return await event.respond("➻ üyeleri etiketleme icin bir neden yaziniz ! ")
     
   if mode == "text_on_cmd":
-    await client.send_message(event.chat_id, "✅ üyeleri etiketleme işlemi başladı . . .",
+    await client.send_message(event.chat_id, " 📢 üyeleri etiketleme işlemi başladı . . .",
                     buttons=(
                       [
                        Button.url('📝  𝖪ANAL  📝', f'https://t.me/cavresozel')
@@ -366,7 +366,7 @@ async def etag(event):
       usrnum += 1
       usrtxt += f"[{random.choice(emoji)}](tg://user?id={usr.id}) , "
       if event.chat_id not in etiket_tagger:
-        await event.respond("⛔ üyeleri etiketleme işlemi başladı . . .",
+        await event.respond("⛔ üyeleri etiketleme işlemi durduruldu . . .",
                     buttons=(
                       [
                        Button.url('📝  𝖪ANAL  📝', f'https://t.me/{support}')
@@ -454,14 +454,14 @@ async def stag(event):
     mode = "text_on_reply"
     msg = event.reply_to_msg_id
     if msg == None:
-        return await event.respond("➻ Evvelki Mesajları görə bilmirəm ! ")
+        return await event.respond("➻ Eski mesajları goremiyorum ! ")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
     return await event.respond("➻ etiket için sebep yazmadın  ! ")
   else:
-    return await event.respond("➻ Tağ etmək üçün bir səbəb yaz ! ")
+    return await event.respond("➻ etiket icin bir neden yazmadin ! ")
     
   if mode == "text_on_cmd":
-    await client.send_message(event.chat_id, "➻ Userləri tağ etmək başladıldı . . .",
+    await client.send_message(event.chat_id, " 📢 uyeleri etiketleme başladıldı . . .",
                     buttons=(
                       [
                        Button.url('📝  𝖪ANAL  📝', f'https://t.me/cavresozel')
@@ -475,7 +475,7 @@ async def stag(event):
       usrnum += 1
       usrtxt += f"[{random.choice(soz)}](tg://user?id={usr.id}) "
       if event.chat_id not in etiket_tagger:
-        await event.respond("⛔ üyeleri etiketleme işlemi başladı . . .",
+        await event.respond("⛔ üyeleri etiketleme işlemi durduruldu . . .",
                     buttons=(
                       [
                        Button.url('📝  KANAL  📝', f'https://t.me/cavresozel')
@@ -541,7 +541,7 @@ async def rtag(event):
       usrnum += 1
       usrtxt += f"[{random.choice(renk)}](tg://user?id={usr.id}) "
       if event.chat_id not in etiket_tagger:
-        await event.respond("⛔ üyeleri etiketleme işlemi başladı ...",
+        await event.respond("⛔ üyeleri etiketleme işlemi durduruldu ...",
                     buttons=(
                       [
                        Button.url('📝  𝖪ANAL  📝', f'https://t.me/cavresozel')
