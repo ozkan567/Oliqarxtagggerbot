@@ -93,10 +93,10 @@ async def start(event):
      await client.send_message(log_qrup, f"ℹ️ **Yeni Kullanıcı -** \n {ad}")
      return await event.reply(f"{ad} {startmesaj}", buttons=(
                       [
-                       Button.url('🎉  Məni Qrupa Əlavə Et  🎉', f'https://t.me/{USERNAME}?startgroup=a')],
+                       Button.url('🎉  beni gruba davet et  🎉', f'https://t.me/{USERNAME}?startgroup=a')],
                       [
-                       Button.url('📚  Əmrlər  ', f'https://t.me/TagBotEmirleri'), #komutların olduğu kanal
-                       Button.url('👨‍💻  Sahib  ', f'https://t.me/MuradAndMee')], #sahibin telegram profil linki
+                       Button.url('📚  komutlar ', f'https://t.me/TagBotEmirleri'), #komutların olduğu kanal
+                       Button.url('👨‍💻  Sahip  ', f'https://t.me/MuradAndMee')], #sahibin telegram profil linki
                        [Button.url('📝  Kanal  ', f'https://t.me/KohneFikirler')] #Kanalın destek grubu vs
                     ),
                     link_preview=False)
@@ -112,8 +112,8 @@ async def handler(event):
      ad = f"👋 Salam [{usr.first_name}](tg://user?id={usr.id}) "
      await event.edit(f"{ad} {startmesaj}", buttons=(
                       [
-                       Button.url('🎉  Məni Qrupa Əlavə et 🎉', f'https://t.me/{USERNAME}?startgroup=a')],
-                      [Button.url("📚  Əmrlər  ", f'https://t.me/TagBotEmirleri'), #komutların olduğu kanal
+                       Button.url('🎉  beni gruba davet et 🎉', f'https://t.me/{USERNAME}?startgroup=a')],
+                      [Button.url("📚  komutlar ", f'https://t.me/TagBotEmirleri'), #komutların olduğu kanal
                        Button.url('👨‍💻  Sahib  ', f'https://t.me/MuradAndMee')] #sahibin telegram profil linki
                        [Button.url('📝  Kanal  ', f'https://t.me/KohneFikirler')] #Kanalın destek grubu vs
                     ),
