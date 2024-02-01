@@ -39,16 +39,16 @@ import random
 # 
 api_id = "21814744" #my.telegram.org/apps adresinden alabilirsiniz 
 api_hash = "024ac6bfea2094f8e5e326d778fdcb54" #my.telegram.org/apps adresinden alabilirsiniz
-bot_token = "5845484003:AAG81qb0FMNWPD3zCloAfvKLduSvifrEL78" #botfatherdan alabilirsiniz
+bot_token = "6351942473:AAF1gagdscrtwRlqxbOB8tfUb6Da-hS6ISw" #botfatherdan alabilirsiniz
 
 client = TelegramClient("Samil", api_id, api_hash).start(bot_token=bot_token)
 
-USERNAME = "OliqarxTagBot" #botunuzun kullanıcı adı
-log_qrup = -1002025981280 #log qrupunuzun idsi
-startmesaj = "💌 Əmrlər arkadaşlarınızı nasıl etiketlemek istersiniz ...\n📚 ben gruplarınız için çavreş tarafından özel geliştirilen bir botum" #start mesajınız
+USERNAME = "etiketcavres_bot" #botunuzun kullanıcı adı
+log_qrup = -1001915718534 #log qrupunuzun idsi
+startmesaj = "💌 arkadaşlarınızı nasıl etiketlemek istersiniz ...\n📚 ben gruplarınız için çavreş tarafından özel geliştirilen bir botum" #start mesajınız
 komutlar = "🇦🇿 Bütün etiketler ;\n\n» /utag   <  mesaj  >\n   - üyeleri 5'li etiketler .\n\n» /tag   <  mesaj  >\n   - üyeleri tek tek etiketler .\n\n» /atag   <  mesaj  >\n   - Adminleri etiketler .\n\n» /etag   <  mesaj  >\n   - üyeleri emoji ile etiketler .\n\n» /stag   <  mesaj  >\n   - üyeleri güzel söz ile etiketler .\n\n» /cancel = >\n   - etiketleme işlemi durdurulur ." #komutların olduğu mesaj
 qrupstart = "• şuan aktif çalışmaktayım  . . .\n\n• üyeleri etiketlemek için grubunuza ekleyin . . ." #aktif olduğunda gruba gelen mesaj
-support = "OliqarxTeam" #destek qrupunuzun kullanıcı adı
+support = "cavresozel" #destek qrupunuzun kullanıcı adı
 sahib = "rahatsizetmeyiniz34" #sahibinizin kullanıcı adı
 noadmin = "➻ Üzgünüm Ama Yönetici Değilsiniz ." #yönetici olmayanlar için mesaj
 
