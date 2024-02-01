@@ -153,14 +153,14 @@ async def mentionall(event):
     mode = "text_on_reply"
     msg = event.reply_to_msg_id
     if msg == None:
-        return await event.respond("➻ Evvelki mesajları görə bilmirəm ! ")
+        return await event.respond("➻ eski mesajları göremiyorum ! ")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
     return await event.respond("➻ Tağ üçün mesaj yazmadın ! ")
   else:
-    return await event.respond("➻ Tağ etməyim üçün bir səbəb yazın ! ")
+    return await event.respond("➻ etiket için bir sebep yazın ! ")
     
   if mode == "text_on_cmd":
-    await client.send_message(event.chat_id, "✅ Tağ etmək işi başladıldı . . .",
+    await client.send_message(event.chat_id, "✅ üyeleri etiketleme işlemi başladı . . .",
                     buttons=(
                       [
                       Button.url('📝  𝖪ANAL  📝', f'https://t.me/KohneFikirler')
@@ -174,7 +174,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) , "
       if event.chat_id not in etiket_tagger:
-        await event.respond("⛔ Tağ etmək işi dayandırıldı . . .",
+        await event.respond("⛔ üyeleri etiketleme işlemi başladı. . .",
                     buttons=(
                       [
                        Button.url('📝  𝖪ANAL  📝', f'https://t.me/KohneFikirler')
@@ -216,10 +216,10 @@ async def mentionalladmin(event):
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
     return await event.respond("➻ Tağ etmək üçün səbəb yaz ! ")
   else:
-    return await event.respond("➻ Tağ etməyim üçün bir səbəb yazın ! ")
+    return await event.respond("➻ etiket islemi icin bir sebep yazın ! ")
     
   if mode == "text_on_cmd":
-    await client.send_message(event.chat_id, "✅ 𝖠𝖽𝗆𝗂𝗇 tağ etmek başladı . . .",
+    await client.send_message(event.chat_id, "✅ 𝖠𝖽𝗆𝗂𝗇 etiket islemi başladı . . .",
                     buttons=(
                       [
                        Button.url('📝  𝖪ANAL  📝', f'https://t.me/KohneFikirler')
@@ -233,7 +233,7 @@ async def mentionalladmin(event):
       usrnum += 1
       usrtxt += f" [{usr.first_name}](tg://user?id={usr.id}) "
       if event.chat_id not in etiket_tagger:
-        await event.respond("⛔ 𝖠𝖽𝗆𝗂𝗇 tağ etmek işi dayandırıldı . . .",
+        await event.respond("⛔ 𝖠𝖽𝗆𝗂𝗇 etiket islemi başladı . . .",
                     buttons=(
                       [
                        Button.url('📝  𝖪ANAL  📝', f'https://t.me/KohneFikirler')
@@ -273,12 +273,12 @@ async def tektag(event):
     if msg == None:
         return await event.respond("➻ Evvelki mesajları görə bilmirəm ! ")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
-    return await event.respond("➻ Tağ etmek üçün mesaj 𝖸𝖺𝗓𝗆𝖺𝖽ın ! ")
+    return await event.respond("➻ etiket için mesaj 𝖸𝖺𝗓𝗆𝖺𝖽ın ! ")
   else:
-    return await event.respond("➻ Tağ etmək üçün bir səbəb yaz ! ")
+    return await event.respond("➻ etiket için bir neden yazınız  ! ")
     
   if mode == "text_on_cmd":
-    await client.send_message(event.chat_id, "✅ Userləri tağ etmək başladı . . .",
+    await client.send_message(event.chat_id, "✅ üyeleri etiketleme işlemi başladı . . .",
                     buttons=(
                       [
                        Button.url('📝  𝖪ANAL  📝', f'https://t.me/KohneFikirler')
@@ -292,7 +292,7 @@ async def tektag(event):
       usrnum += 1
       usrtxt += f" [{usr.first_name}](tg://user?id={usr.id}) "
       if event.chat_id not in etiket_tagger:
-        await event.respond("⛔ Userləri tağ etməyim dayandı . . .",
+        await event.respond("⛔ üyeleri etiketleme işlemi başladı . . .",
                     buttons=(
                       [
                        Button.url('📝  𝖪ANAL  📝', f'https://t.me/KohneFikirler')
@@ -345,14 +345,14 @@ async def etag(event):
     mode = "text_on_reply"
     msg = event.reply_to_msg_id
     if msg == None:
-        return await event.respond("➻ Evvelki Mesajları Görə bilmirəm ! ")
+        return await event.respond("➻ eski mesajları goremiyorum! ")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
-    return await event.respond("➻ Tağ üçün səbəb yazmadın ! ")
+    return await event.respond("➻ etiket icin sebep yazmadın ! ")
   else:
-    return await event.respond("➻ Tağ etmək üçün bir səbəb yazın ! ")
+    return await event.respond("➻ üyeleri etiketleme icin bir neden yaziniz ! ")
     
   if mode == "text_on_cmd":
-    await client.send_message(event.chat_id, "✅ Userləri tağ etmək başladı . . .",
+    await client.send_message(event.chat_id, "✅ üyeleri etiketleme işlemi başladı . . .",
                     buttons=(
                       [
                        Button.url('📝  𝖪ANAL  📝', f'https://t.me/KohneFikirler')
@@ -366,7 +366,7 @@ async def etag(event):
       usrnum += 1
       usrtxt += f"[{random.choice(emoji)}](tg://user?id={usr.id}) , "
       if event.chat_id not in etiket_tagger:
-        await event.respond("⛔ User tağ etmək işi dayandırıldı . . .",
+        await event.respond("⛔ üyeleri etiketleme işlemi başladı . . .",
                     buttons=(
                       [
                        Button.url('📝  𝖪ANAL  📝', f'https://t.me/{support}')
@@ -456,7 +456,7 @@ async def stag(event):
     if msg == None:
         return await event.respond("➻ Evvelki Mesajları görə bilmirəm ! ")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
-    return await event.respond("➻ Tağ üçün səbəb yazmadın ! ")
+    return await event.respond("➻ etiket için sebep yazmadın  ! ")
   else:
     return await event.respond("➻ Tağ etmək üçün bir səbəb yaz ! ")
     
@@ -475,7 +475,7 @@ async def stag(event):
       usrnum += 1
       usrtxt += f"[{random.choice(soz)}](tg://user?id={usr.id}) "
       if event.chat_id not in etiket_tagger:
-        await event.respond("⛔ Userləri tağ etməyim dayandırıldı . . .",
+        await event.respond("⛔ üyeleri etiketleme işlemi başladı . . .",
                     buttons=(
                       [
                        Button.url('📝  KANAL  📝', f'https://t.me/KohneFikirler')
@@ -522,12 +522,12 @@ async def rtag(event):
     if msg == None:
         return await event.respond("**➻ Evvelki mesajları görə bilmirəm !**")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
-    return await event.respond("**➻ Tağ üçün səbəb yazmadın !**")
+    return await event.respond("**➻ etiket icin sebep yazmadın !**")
   else:
-    return await event.respond("**➻ Tağ etmək üçün bir səbəb yaz !**")
+    return await event.respond("**➻ etiketlemek için bir sebep yazın!**")
     
   if mode == "text_on_cmd":
-    await client.send_message(event.chat_id, "✅ 𝖴serləri tağ etmək başladı . . .",
+    await client.send_message(event.chat_id, "✅ üyeleri etiketleyin . . .",
                     buttons=(
                       [
                        Button.url('📝  𝖪ANAL  📝', f'https://t.me/KohneFikirler')
@@ -541,7 +541,7 @@ async def rtag(event):
       usrnum += 1
       usrtxt += f"[{random.choice(renk)}](tg://user?id={usr.id}) "
       if event.chat_id not in etiket_tagger:
-        await event.respond("⛔ 𝖴serləri tağ etməyim dayandırıldı...",
+        await event.respond("⛔ üyeleri etiketleme işlemi başladı ...",
                     buttons=(
                       [
                        Button.url('📝  𝖪ANAL  📝', f'https://t.me/KohneFikirler')
@@ -574,14 +574,14 @@ async def eros_oku(event):
     second_user_md_mention = f'**[{second_user.first_name}](tg://user?id={second_user.id})**'
     
     response = (
-        f"**Eros'un oxu atıldı.💘**\n**Aşiqlər:**\n\n"
-        f"{first_user_md_mention} 💞 {second_user_md_mention} \n`Uyumluluğ faizi: %{random.randint(0, 100)}`"
+        f"**Eros'un oxu atıldı.💘**\n**Aşıklar:**\n\n"
+        f"{first_user_md_mention} 💞 {second_user_md_mention} \n`Uyumluluk oranı: %{random.randint(0, 100)}`"
     )
     
     await event.respond(response, parse_mode="Markdown")
 client.run_until_disconnected()
 
 
-print(">> Bot çalışmaktadir merak etme 🚀 @birsamil bilgi alabilirsin. <<")
+print(">> Bot çalışmaktadir merak etme 🚀 @rahatsizetmeyiniz34 bilgi alabilirsin. <<")
 client.run_until_disconnected()
 run_until_disconnected()
