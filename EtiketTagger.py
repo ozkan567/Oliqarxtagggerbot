@@ -109,7 +109,7 @@ async def start(event):
 @client.on(events.callbackquery.CallbackQuery(data="start"))
 async def handler(event):
     async for usr in client.iter_participants(event.chat_id):
-     ad = f"👋 Salam [{usr.first_name}](tg://user?id={usr.id}) "
+     ad = f"👋 Selam [{usr.first_name}](tg://user?id={usr.id}) "
      await event.edit(f"{ad} {startmesaj}", buttons=(
                       [
                        Button.url('🎉  beni gruba davet et 🎉', f'https://t.me/{USERNAME}?startgroup=a')],
